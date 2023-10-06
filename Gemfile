@@ -45,7 +45,9 @@ group :development do
   gem 'listen', '~> 3.3'
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   gem "spring"
+  # Faker, a port of Data::Faker from Perl, is used to easily generate fake data: names, addresses, phone numbers, etc.
+  gem 'faker', '~> 3.2'
 end
 
-
+#ActiveModel::Serializers allows you to generate your JSON in an object-oriented and convention-driven manner.
 gem "active_model_serializers", "~> 0.10.13"
